@@ -309,7 +309,7 @@ h6 {
   font-weight: 700;
   line-height: 103%;
   color: #374A3D;
-  z-index: 5;
+  z-index: 105;
 }
 
 .title {
@@ -552,7 +552,7 @@ h6 {
 
 .rating__value {
   line-height: 1;
-  padding: 0.25rem 0.3125rem 0px 0.5625rem;
+  padding: 0rem 0.3125rem 0px 0.5625rem;
 }
 
 .header {
@@ -603,7 +603,7 @@ h6 {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  z-index: 5;
+  z-index: 105;
 }
 
 .header__button:hover {
@@ -611,7 +611,7 @@ h6 {
 }
 
 .menu {
-  z-index: 3;
+  z-index: 101;
 }
 
 .menu__body {
@@ -920,9 +920,9 @@ h6 {
 }
 
 .garden__content._active {
-  -webkit-transition: all 1.5s ease 0s;
-  -o-transition: all 1.5s ease 0s;
-  transition: all 1.5s ease 0s;
+  -webkit-transition: all 1.5s ease 0.6s;
+  -o-transition: all 1.5s ease 0.6s;
+  transition: all 1.5s ease 0.6s;
   -webkit-transform: translate(0);
       -ms-transform: translate(0);
           transform: translate(0);
@@ -944,6 +944,20 @@ h6 {
   position: absolute;
   top: 10.625rem;
   right: -11rem;
+  -webkit-transform: translate(1.875rem, 1.875rem);
+      -ms-transform: translate(1.875rem, 1.875rem);
+          transform: translate(1.875rem, 1.875rem);
+  opacity: 0;
+}
+
+.garden__image_1._active {
+  -webkit-transition: all 1.5s ease 0s;
+  -o-transition: all 1.5s ease 0s;
+  transition: all 1.5s ease 0s;
+  -webkit-transform: translate(0);
+      -ms-transform: translate(0);
+          transform: translate(0);
+  opacity: 1;
 }
 
 .garden__image_2 {
@@ -956,6 +970,20 @@ h6 {
   position: absolute;
   top: 42.25rem;
   left: 25.9375rem;
+  -webkit-transform: translate(0, 0rem);
+      -ms-transform: translate(0, 0rem);
+          transform: translate(0, 0rem);
+  opacity: 0;
+}
+
+.garden__image_3._active {
+  -webkit-transition: all 1.2s ease 1.2s;
+  -o-transition: all 1.2s ease 1.2s;
+  transition: all 1.2s ease 1.2s;
+  -webkit-transform: translate(0);
+      -ms-transform: translate(0);
+          transform: translate(0);
+  opacity: 1;
 }
 
 .garden__image_2.swing {
@@ -1044,7 +1072,7 @@ h6 {
 
 .landscape__container {
   position: relative;
-  z-index: 110;
+  z-index: 50;
 }
 
 .landscape__container::before {
@@ -1489,6 +1517,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 178%;
@@ -1497,6 +1528,7 @@ h6 {
 }
 
 .item-dream__rating a {
+  padding-top: 0.125rem;
   -webkit-transition: color 0.3s ease 0s;
   -o-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
@@ -2046,7 +2078,7 @@ h6 {
     position: relative;
     width: 1.875rem;
     height: 1.125rem;
-    z-index: 5;
+    z-index: 105;
   }
 
   .icon-menu span,
@@ -2135,7 +2167,7 @@ h6 {
   }
 
   .landscape__image {
-    opacity: 0.3;
+    opacity: 0.2;
   }
 
   .gardener__container {
